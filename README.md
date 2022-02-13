@@ -57,56 +57,56 @@ Overview of all USB HID Keycodes of an ISO-105 German Keyboard
 
 | Key  | Decimal HID Code | Hex HID Code |
 | ------------- | ------------- | ------------- |
-| 1  | 89  | a |
-| 2  | 90  | a |
-| 3  | 91  | a |
-| 4  | 92  | a |
-| 5  | 93  | a |
-| 6  | 94  | a |
-| 7  | 95  | a |
-| 8  | 96  | a |
-| 9  | 97  | a |
-| 0  | 98  | a |
-| ,  | 133  | a |
-| .  | 99  | a |
-| /  | 84  | a |
-| *  | 85  | a |
-| -  | 86  | a |
-| +  | 87  | a |
-| Enter  | 88  | a |
-| NumLock  | 83  | a |
+| 1  | 89  | 0x59 |
+| 2  | 90  | 0x5A |
+| 3  | 91  | 0x5B |
+| 4  | 92  | 0x5C |
+| 5  | 93  | 0x5D |
+| 6  | 94  | 0x5E |
+| 7  | 95  | 0x5F |
+| 8  | 96  | 0x60 |
+| 9  | 97  | 0x61 |
+| 0  | 98  | 0x62 |
+| ,  | 133  | 0x85 |
+| .  | 99  | 0x63 |
+| /  | 84  | 0x54 |
+| *  | 85  | 0x55 |
+| -  | 86  | 0x56 |
+| +  | 87  | 0x57 |
+| Enter  | 88  | 0x58 |
+| NumLock  | 83  | 0x53 |
 
 ## Functions Row
 ### (Esc, F1-F12. Print, Roll, Pause)
 
 | Key  | Decimal HID Code | Hex HID Code |
 | ------------- | ------------- | ------------- |
-| Esc  | 41  | a |
-| F1  | 58  | a |
-| F2  | 59  | a |
-| F3  | 60  | a |
-| F4  | 61  | a |
-| F5  | 62  | a |
-| F6  | 63  | a |
-| F7  | 64  | a |
-| F8  | 65  | a |
-| F9  | 66  | a |
-| F10  | 67  | a |
-| F11  | 68  | a |
-| F12  | 69  | a |
-| Print Scr.  | 70  | a |
-| Roll Lock  | 71  | a |
-| Pause, Break  | 72  | a |
-| Insert  | 73  | a |
-| Pos 1  | 74  | a |
-| Pg Up  | 75  | a |
-| Del  | 76  | a |
-| End  | 77  | a |
-| Pg Down  | 78  | a |
-| Up  | 82  | a |
-| Down  | 81  | a |
-| Left  | 80  | a |
-| Right  | 79  | a |
+| Esc  | 41  | 0x29 |
+| F1  | 58  | 0x3A |
+| F2  | 59  | 0x3B |
+| F3  | 60  | 0x3C |
+| F4  | 61  | 0x3D |
+| F5  | 62  | 0x3E |
+| F6  | 63  | 0x3F |
+| F7  | 64  | 0x40 |
+| F8  | 65  | 0x41 |
+| F9  | 66  | 0x42 |
+| F10  | 67  | 0x43 |
+| F11  | 68  | 0x44 |
+| F12  | 69  | 0x45 |
+| Print Scr.  | 70  | 0x46 |
+| Roll Lock  | 71  | 0x47 |
+| Pause, Break  | 72  | 0x48 |
+| Insert  | 73  | 0x49 |
+| Pos 1  | 74  | 0x4A |
+| Pg Up  | 75  | 0x4B |
+| Del  | 76  | 0x4C |
+| End  | 77  | 0x4D |
+| Pg Down  | 78  | 0x4E |
+| Up  | 82  | 0x52 |
+| Down  | 81  | 0x51 |
+| Left  | 80  | 0x50 |
+| Right  | 79  | 0x4F |
 
 
 
@@ -128,14 +128,14 @@ Overview of all USB HID Keycodes of an ISO-105 German Keyboard
 
 | Key  | Decimal HID Code | Hex HID Code |
 | ------------- | ------------- | ------------- |
-| ^  | 53  | a |
-| +  | 48  | a |
-| #  | 49  | a |
-| -  | 56  | a |
-| .  | 55  | a |
-| ,  | 54  | a |
-| <  | 3  | a |
-| ´  | 46  | a |
+| ^  | 53  | 0x35 |
+| +  | 48  | 0x30 |
+| #  | 49  | 0x31 |
+| -  | 56  | 0x38 |
+| .  | 55  | 0x37 |
+| ,  | 54  | 0x36 |
+| <  | 3  | 0x03 |
+| ´  | 46  | 0x2E |
 
 
 
