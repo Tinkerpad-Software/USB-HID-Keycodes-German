@@ -2,9 +2,9 @@
 Overview of all USB HID Keycodes of an ISO-105 German Keyboard
 
 ## Letter Keys
-### (A-Z, 0-9, ß,ä,ü,ö)
+### (A-Z, 0-9, ß, ä, ü, ö, Enter, Bsp, Space)
 
-| Letter  | Decimal HID Code | Hex HID Code |
+| Key  | Decimal HID Code | Hex HID Code |
 | ------------- | ------------- | ------------- |
 | a  | 4  | 0x04 |
 | b  | 5  | 0x05 |
@@ -46,11 +46,16 @@ Overview of all USB HID Keycodes of an ISO-105 German Keyboard
 | ä  | 52  | a |
 | ü  | 47  | a |
 | ö  | 49  | a |
+| Enter  | 40  | a |
+| Backspace  | 42  | a |
+| Space  | 44  | a |
+| Tab  | 43  | a |
+| Caps Lock  | 57  | a |
 
 ## Numpad Keys
-### (0-9, /,*,-,+,Enter,NumLock)
+### (0-9, /, *, -, +, Enter, NumLock)
 
-| Letter  | Decimal HID Code | Hex HID Code |
+| Key  | Decimal HID Code | Hex HID Code |
 | ------------- | ------------- | ------------- |
 | 1  | 89  | a |
 | 2  | 90  | a |
@@ -74,7 +79,7 @@ Overview of all USB HID Keycodes of an ISO-105 German Keyboard
 ## Functions Row
 ### (Esc, F1-F12. Print, Roll, Pause)
 
-| Letter  | Decimal HID Code | Hex HID Code |
+| Key  | Decimal HID Code | Hex HID Code |
 | ------------- | ------------- | ------------- |
 | Esc  | 41  | a |
 | F1  | 58  | a |
@@ -92,9 +97,45 @@ Overview of all USB HID Keycodes of an ISO-105 German Keyboard
 | Print Scr.  | 70  | a |
 | Roll Lock  | 71  | a |
 | Pause, Break  | 72  | a |
+| Insert  | 73  | a |
+| Pos 1  | 74  | a |
+| Pg Up  | 75  | a |
+| Del  | 76  | a |
+| End  | 77  | a |
+| Pg Down  | 78  | a |
+| Up  | 82  | a |
+| Down  | 81  | a |
+| Left  | 80  | a |
+| Right  | 79  | a |
 
 
 
+## Modifier Keys
+### These are Not standard HID Keycodes, instead they are Modifiers and are handled differently.
+| Key  | Hex Code |
+| ------------- | ------------- |
+| Left Control  | 0x01  |
+| Left Shift  | 0x02  |
+| Left Alt  | 0x04  |
+| Left Windows  | 0x08  |
+| Right Control  | 0x10 |
+| Right Shift  | 0x20  |
+| Right Alt  | 0x40  |
+| Right Windows  | 0x80  |
+
+## Other Keys
+### Keys that were not listed yet
+
+| Key  | Decimal HID Code | Hex HID Code |
+| ------------- | ------------- | ------------- |
+| ^  | 53  | a |
+| +  | 48  | a |
+| #  | 49  | a |
+| -  | 56  | a |
+| .  | 55  | a |
+| ,  | 54  | a |
+| <  | 3  | a |
+| ´  | 46  | a |
 
 
 
