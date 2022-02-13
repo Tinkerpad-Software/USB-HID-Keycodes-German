@@ -1,5 +1,9 @@
 # USB-HID-Keycodes-German
-Overview of all USB HID Keycodes of an ISO-105 German Keyboard
+Overview of all USB HID Keycodes of an ISO-105 German Keyboard.  
+This is by no means a complete list of all Keycodes, only those that are directly needed 
+to create a fully working ISO-105 compatible keyboard with your own microcontroller.
+
+##### I couldn't fully verify every keycode yet. If you have found a discrepancy please open an issue
 
 ## Letter Keys
 ### (A-Z, 0-9, ß, ä, ü, ö, Enter, Bsp, Space)
@@ -111,7 +115,7 @@ Overview of all USB HID Keycodes of an ISO-105 German Keyboard
 
 
 ## Modifier Keys
-### These are Not standard HID Keycodes, instead they are Modifiers and are handled differently.
+### These are Not standard HID Keycodes to send, instead they are Key Modifiers and must be sent as such.
 | Key  | Hex Code |
 | ------------- | ------------- |
 | Left Control  | 0x01  |
