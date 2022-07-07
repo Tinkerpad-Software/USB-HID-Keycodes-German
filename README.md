@@ -1,4 +1,4 @@
-# USB-HID-Keycodes-German
+# USB-HID-Keycodes German
 Overview of all USB HID Keycodes of an ISO-105 German Keyboard.  
 This is by no means a complete list of all Keycodes, only those that are directly needed 
 to create a fully working ISO-105 compatible keyboard with your own microcontroller.
